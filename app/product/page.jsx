@@ -40,13 +40,13 @@ const page = () => {
             <FaArrowRight className="ml-3 transition-all duration-300 group-hover:translate-x-6" />
           </div>
         </button>
-        <h1 className="absolute bottom-28 sm:bottom-40 md:bottom-50 text-2xl sm:text-3xl md:text-4xl text-white font-semibold left-4 sm:left-5 max-w-[80%] sm:max-w-none">
+        <h1 className="absolute bottom-28 sm:bottom-40 md:bottom-30 text-2xl sm:text-3xl md:text-4xl text-white font-semibold left-4 sm:left-5 max-w-[80%] sm:max-w-none">
           Redefining Portable Audio
         </h1>
-        <p className="text-white text-sm sm:text-base font-medium absolute left-4 sm:left-5 bottom-16 sm:bottom-24 md:bottom-30 max-w-[85%] sm:max-w-md">
+        {/* <p className="text-white hidden lg:block text-sm sm:text-base font-medium absolute left-4 sm:left-5 bottom-16 sm:bottom-24 md:bottom-30 max-w-[85%] sm:max-w-md">
           Engineered for those who demand more from their audio, this speaker
           delivers bold sound in a sleek, rugged form—ready for any setting.
-        </p>
+        </p> */}
       </div>
 
       <div className="p-5 sm:p-10 mt-16 sm:mt-30">
