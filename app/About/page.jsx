@@ -36,7 +36,7 @@ const page = () => {
         <div className="relative w-full h-[300px] sm:h-[400px] md:h-[480px] lg:h-[530px] px-3 sm:px-5">
           <div className="relative w-full h-full max-w-[1200px] mx-auto">
             <Image
-              src="/headphone.jpeg"
+              src="/Headphone.jpeg"
               fill
               sizes="(max-width: 1200px) 100vw, 1200px"
               className="object-cover rounded-2xl brightness-50"
