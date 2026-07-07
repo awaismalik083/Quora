@@ -3,12 +3,12 @@ import React from "react";
 import { motion } from "framer-motion";
 const Footer = () => {
   return (
-    <div className="mt-20 bg-[#F7F7F7] h-screen p-5">
+    <div className="mt-20 bg-[#F7F7F7] lg:h-screen p-5">
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className=" bg-[#000000] h-[220vh] lg:h-[115vh]  rounded-2xl"
+        className=" bg-[#000000] h-[110vh] lg:h-[115vh]  rounded-2xl"
       >
         <div className=" flex flex-col lg:flex-row justify-center lg:justify-between px-10 py-14 ">
           {/* Left column */}

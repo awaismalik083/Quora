@@ -90,12 +90,12 @@ const Hero = () => {
         </ul>
 
         {/* Bottom left text */}
-        <div className="absolute  mt-70 lg:mt-0 lg:bottom-10 left-4 lg:left-5">
+        <div className="absolute  mt-110 lg:mt-0 lg:bottom-10 left-4 lg:left-5">
           <motion.h1
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: "linear", delay: 2 }}
-            className="max-w-[260px] lg:max-w-[360px] text-[#0A0A0A] text-[15px] lg:text-[18px] font-normal"
+            className="max-w-[260px] lg:max-w-[360px]  text-[#0A0A0A] text-[15px] lg:text-[18px] font-normal"
           >
             Quora is like having a personal assistant for your entire home.
           </motion.h1>
@@ -111,7 +111,7 @@ const Hero = () => {
         </div>
 
         {/* Bottom right side - Scroll Indicator */}
-        <div className="w-6 h-10 absolute bottom-5 border flex justify-center items-start pt-1 right-4 lg:right-5 border-black rounded-full">
+        <div className="w-6 h-10 mt-5 absolute bottom-5 border flex justify-center items-start pt-1 right-4 lg:right-5 border-black rounded-full">
           <motion.div
             className="bg-black w-0.5 h-2 rounded-full"
             animate={{ y: [0, 18, 0] }}
@@ -202,7 +202,7 @@ const Hero = () => {
               <img
                 src="/girl.png"
                 alt="Sarah testimonial"
-                className="w-full h-[280px] sm:h-[360px] lg:h-[400px] object-cover rounded-3xl"
+                className="w-full h-[280px] sm:h-[390px] lg:h-[400px] object-cover rounded-3xl"
               />
             </div>
 
