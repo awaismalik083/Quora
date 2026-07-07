@@ -8,7 +8,7 @@ const Footer = () => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className=" bg-[#000000] h-[110vh] lg:h-[115vh]  rounded-2xl"
+        className=" bg-[#000000]  lg:h-[115vh]  rounded-2xl"
       >
         <div className=" flex flex-col lg:flex-row justify-center lg:justify-between px-10 py-14 ">
           {/* Left column */}
